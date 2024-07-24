@@ -1,0 +1,67 @@
+2024-07-23 13:00:29,685 - __main__ - INFO - Comenzando la app Scraper de Citas
+2024-07-23 13:03:59,747 - __main__ - INFO - Comenzando la app Scraper de Citas
+2024-07-23 13:17:11,878 - __main__ - INFO - Comenzando la app Scraper de Citas
+2024-07-23 13:17:12,352 - src.scraper - INFO - Citas 1 scrapeadas con éxito
+2024-07-23 13:17:12,364 - src.database - INFO - Cita 1 insertada en la base de datos
+2024-07-23 13:17:12,365 - src.updater - INFO - Proceso de actualización iniciado
+2024-07-23 13:17:12,365 - __main__ - INFO - Abriendo aplicación web
+2024-07-23 13:17:12,610 - src.scraper - INFO - Citas 1 scrapeadas con éxito
+2024-07-23 13:17:12,610 - src.scraper - INFO - Citas 1 scrapeadas con éxito
+2024-07-23 13:17:12,623 - src.database - INFO - Cita 1 insertada en la base de datos
+2024-07-23 13:17:12,623 - src.database - INFO - Cita 1 insertada en la base de datos
+2024-07-23 13:17:12,624 - src.updater - INFO - Actualización completada en 3600 segundos
+2024-07-23 13:17:13,078 - __main__ - INFO - Comenzando la app Scraper de Citas
+2024-07-23 13:17:13,372 - src.scraper - INFO - Citas 1 scrapeadas con éxito
+2024-07-23 13:17:13,383 - src.database - INFO - Cita 1 insertada en la base de datos
+2024-07-23 13:17:13,384 - src.updater - INFO - Proceso de actualización iniciado
+2024-07-23 13:17:13,384 - __main__ - INFO - Abriendo aplicación web
+2024-07-23 13:17:13,647 - src.scraper - INFO - Citas 1 scrapeadas con éxito
+2024-07-23 13:17:13,647 - src.scraper - INFO - Citas 1 scrapeadas con éxito
+2024-07-23 13:17:13,660 - src.database - INFO - Cita 1 insertada en la base de datos
+2024-07-23 13:17:13,660 - src.database - INFO - Cita 1 insertada en la base de datos
+2024-07-23 13:17:13,661 - src.updater - INFO - Actualización completada en 3600 segundos
+2024-07-23 14:17:12,625 - src.updater - INFO - Proceso de actualización iniciado
+2024-07-23 14:17:12,984 - src.scraper - INFO - Citas 1 scrapeadas con éxito
+2024-07-23 14:17:12,984 - src.scraper - INFO - Citas 1 scrapeadas con éxito
+2024-07-23 14:17:12,984 - src.scraper - INFO - Citas 1 scrapeadas con éxito
+2024-07-23 14:17:12,994 - src.database - INFO - Cita 1 insertada en la base de datos
+2024-07-23 14:17:12,994 - src.database - INFO - Cita 1 insertada en la base de datos
+2024-07-23 14:17:12,994 - src.database - INFO - Cita 1 insertada en la base de datos
+2024-07-23 14:17:12,995 - src.updater - INFO - Actualización completada en 3600 segundos
+2024-07-23 14:17:13,663 - src.updater - INFO - Proceso de actualización iniciado
+2024-07-23 14:17:13,897 - src.scraper - INFO - Citas 1 scrapeadas con éxito
+2024-07-23 14:17:13,897 - src.scraper - INFO - Citas 1 scrapeadas con éxito
+2024-07-23 14:17:13,897 - src.scraper - INFO - Citas 1 scrapeadas con éxito
+2024-07-23 14:17:13,907 - src.database - INFO - Cita 1 insertada en la base de datos
+2024-07-23 14:17:13,907 - src.database - INFO - Cita 1 insertada en la base de datos
+2024-07-23 14:17:13,907 - src.database - INFO - Cita 1 insertada en la base de datos
+2024-07-23 14:17:13,907 - src.database - INFO - Cita 1 insertada en la base de datos
+2024-07-23 14:17:13,907 - src.database - INFO - Cita 1 insertada en la base de datos
+2024-07-23 14:17:13,907 - src.database - INFO - Cita 1 insertada en la base de datos
+2024-07-23 14:17:13,907 - src.database - INFO - Cita 1 insertada en la base de datos
+2024-07-23 14:17:13,907 - src.database - INFO - Cita 1 insertada en la base de datos
+2024-07-23 14:17:13,907 - src.database - INFO - Cita 1 insertada en la base de datos
+2024-07-23 14:17:13,907 - src.database - INFO - Cita 1 insertada en la base de datos
+2024-07-23 14:17:13,907 - src.database - INFO - Cita 1 insertada en la base de datos
+2024-07-23 14:17:13,907 - src.database - INFO - Cita 1 insertada en la base de datos
+2024-07-23 14:17:13,907 - src.database - INFO - Cita 1 insertada en la base de datos
+2024-07-23 14:17:13,907 - src.database - INFO - Cita 1 insertada en la base de datos
+2024-07-23 14:17:13,907 - src.database - INFO - Cita 1 insertada en la base de datos
+2024-07-23 14:17:13,907 - src.database - INFO - Cita 1 insertada en la base de datos
+2024-07-23 14:17:13,907 - src.database - INFO - Cita 1 insertada en la base de datos
+2024-07-23 14:17:13,907 - src.database - INFO - Cita 1 insertada en la base de datos
+2024-07-23 14:17:13,907 - src.database - INFO - Cita 1 insertada en la base de datos
+2024-07-23 14:17:13,907 - src.database - INFO - Cita 1 insertada en la base de datos
+2024-07-23 14:17:13,907 - src.database - INFO - Cita 1 insertada en la base de datos
+2024-07-23 14:17:13,907 - src.database - INFO - Cita 1 insertada en la base de datos
+2024-07-23 14:17:13,907 - src.database - INFO - Cita 1 insertada en la base de datos
+2024-07-23 14:17:13,907 - src.database - INFO - Cita 1 insertada en la base de datos
+2024-07-23 14:17:13,907 - src.database - INFO - Cita 1 insertada en la base de datos
+2024-07-23 14:17:13,907 - src.database - INFO - Cita 1 insertada en la base de datos
+2024-07-23 14:17:13,907 - src.database - INFO - Cita 1 insertada en la base de datos
+2024-07-23 14:17:13,907 - src.database - INFO - Cita 1 insertada en la base de datos
+2024-07-23 14:17:13,907 - src.database - INFO - Cita 1 insertada en la base de datos
+2024-07-23 14:17:13,907 - src.database - INFO - Cita 1 insertada en la base de datos
+2024-07-23 14:17:13,907 - src.database - INFO - Cita 1 insertada en la base de datos
+2024-07-23 14:17:13,907 - src.database - INFO - Cita 1 insertada en la base de datos
+2024-07-23 14:17:13,918 - src.updater - INFO - Actualización completada en 3600 segundos
