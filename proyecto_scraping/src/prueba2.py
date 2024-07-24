@@ -15,7 +15,7 @@ def obtener_info_autor(url):
     nacimiento = soup.find('span', class_='author-born-date').get_text(strip=True)
     lugar = soup.find('span', class_='author-born-location').get_text(strip=True)
     descripcion = soup.find('div', class_='author-description').get_text(strip=True)
-    
+      
     return {
         'nombre': nombre,
         'nacimiento': nacimiento,
