@@ -1,12 +1,15 @@
 from bs4 import BeautifulSoup
 import requests
 
+#para la primera variable se crea para recorrer la primera página, la segunda se crea para iterar sobre cada una de las otras páginas. 
 BASE_URL = 'https://quotes.toscrape.com'
 page_website = 'https://quotes.toscrape.com/page/{}/'
 
+#en estas variables se recogerá la información que se vaya extrayendo de las páginas.
 citas = []
 autores = {}
 
+#función que recoge la información del autor y la limpia
 def obtener_info_autor(url):
     respuesta = requests.get(url)
     soup = BeautifulSoup(respuesta.text, "html.parser")
@@ -22,7 +25,7 @@ def obtener_info_autor(url):
         'lugar': lugar,
         'descripcion': descripcion
     }
-
+#iteración por las páginas
 for page_number in range(1, 11):
     URL = page_website.format(page_number)
     print(f'Scrapeando la página: {URL}')
