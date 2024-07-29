@@ -1,0 +1,13 @@
+README.md
+setup.py
+proyecto_scraping.egg-info/PKG-INFO
+proyecto_scraping.egg-info/SOURCES.txt
+proyecto_scraping.egg-info/dependency_links.txt
+proyecto_scraping.egg-info/top_level.txt
+src/__init__.py
+src/database.py
+src/logger.py
+src/scraper.py
+tests/__init__.py
+tests/test_database.py
+tests/test_scraper.py
