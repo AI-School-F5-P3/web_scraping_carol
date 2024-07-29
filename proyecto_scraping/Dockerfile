@@ -1,5 +1,5 @@
 # Utilizar una imagen base de Python
-FROM python:3.9-slim
+FROM python:3.12-slim
 
 # Instalar dependencias del sistema necesarias para psycopg2 y otras bibliotecas
 RUN apt-get update && \
