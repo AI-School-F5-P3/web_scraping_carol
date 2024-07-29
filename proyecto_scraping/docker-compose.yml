@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  scraper:
+    build: .
+    command: src/scraper.py
+
+  database:
+    build: .
+    command: src/database.py
+
+  tests:
+    build: .
+    command: -m unittest discover -s tests

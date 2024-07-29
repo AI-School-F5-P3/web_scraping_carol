@@ -1,0 +1,23 @@
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+__pycache__/
+logs/*.txt
+logs/
+*.log
+logs/*
+!logs/.gitkeep
+*.pyc
+*.pyo
+.vscode/
+.idea/
+Get-Content $envFilePath | ForEach-Object {
+    if ($_ -notmatch '^\s*#' -and $_ -match '^\s*(\w+)\s*=\s*(.*)\s*$') {
+        $name = $matches[1]
+        $value = $matches[2]
+        [System.Environment]::SetEnvironmentVariable($name, $value)
+    }
+}
