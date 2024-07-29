@@ -1,4 +1,5 @@
 import logging
+from src.scraper import *
 
 class Logger:
     def __init__(self, name):
