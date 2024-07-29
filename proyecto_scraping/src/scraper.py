@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 import requests
-from logger import Logger
-from database import Base, engine, Session, insertar_autor, insertar_cita
+from src.logger import Logger
+from src.database import Base, engine, Session, insertar_autor, insertar_cita
 from sqlalchemy import inspect
 import time
 
