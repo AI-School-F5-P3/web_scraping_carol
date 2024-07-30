@@ -1,14 +1,19 @@
 version: '3.8'
-
 services:
-  scraper:
+  web:
     build: .
-    command: src/scraper.py
+    environment:
+      POSTGRES_HOST: database
+      POSTGRES_PORT: 5432
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 1234
+      POSTGRES_DB: scraping
+    depends_on:
+      - database
 
   database:
-    build: .
-    command: src/database.py
-
-  tests:
-    build: .
-    command: -m unittest discover -s tests
+    image: postgres:latest
+    environment:
+      POSTGRES_DB: scraping
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 1234
