@@ -15,5 +15,12 @@ COPY . /proyecto_scraping/
 # Instalar las dependencias de Python
 RUN pip install --no-cache-dir -r requirements.txt
 
+# Instalar el cliente de PostgreSQL
+RUN apt-get update && apt-get install -y postgresql-client
+
+# Copiar el script de espera para PostgreSQL
+COPY wait-for-postgres.sh /wait-for-postgres.sh
+RUN chmod +x /wait-for-postgres.sh
+
 # Comando por defecto para ejecutar tu aplicación
-CMD ["python", "/proyecto_scraping/src/scraper.py", "/proyecto_scraping/src/database.py", "/proyecto_scraping/src/logger.py"]
+CMD ["/wait-for-postgres.sh", "python", "/proyecto_scraping/src/scraper.py"]
